@@ -1,0 +1,89 @@
+body{
+    background: url(../assets/bg.jpg);
+    background-position: center;
+    background-size: 120%;
+    width: 400px;
+    height: 600px; 
+}
+.wrapper{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 350px;
+    height: 350px; 
+    text-align: center;
+    border: 1px solid rbg(241,241,241);
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.5);
+}
+.wrapper h2{
+    font-size: 30px;
+    color: white;
+}
+.input-field{
+    position: relative;
+}
+.input-field input[type="email"],
+.input-field input[type="password"] {
+    border-radius: 10px;
+    background: transparent;
+    margin: 15px;
+    border:2px solid white;
+    width: 280px;
+    height: 2px;
+    padding: 20px 40px 20px 20px;
+    backdrop-filter: blur(10px);
+}
+.input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: rgb(252,252,252);
+}
+input::placeholder{
+    color: white;
+}
+.input-field input[type="email"]:focus::placeholder,
+.input-field input[type="password"]:focus::placeholder{
+    transform: translateY(-80%);
+    transition: transform 0.2s ease-in-out;
+    font-size: 14px;
+}
+.input-field input[type="email"]:not(:focus)::placeholder,
+.input-field input[type="password"]:not(:focus)::placeholder {
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+    font-size: 16px;
+}
+.forgot{
+    text-decoration: none;
+    position: relative;
+    color: rgba(255,255,255,0.7);
+}
+.forgot:hover{
+    text-decoration: underline;
+    color: #fffffffd;
+}
+.sign-up{
+    text-decoration: none;
+    position: relative;
+    color: rgba(255,255,255,0.7);
+}
+.sign-up:hover{
+    text-decoration: underline;
+    color: #fffffffd;
+}
+.login{
+    background: #fff;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 45px;
+    width: 200px;
+    height: 30px;
+}

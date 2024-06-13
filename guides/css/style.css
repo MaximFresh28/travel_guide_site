@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Roboto" sans-serif;
+    background-color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: sticky;
+}
+.logo {
+    width: 20px;
+}
+.menu {
+    display: flex;
+    gap: 70px;
+}
+.index_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 40px;
+    height: 50px;
+    font-weight: 650;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto';
+    transition: 0.5s;
+    text-decoration: none;
+}
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 3px;
+    font-family: 'Roboto';
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.menu-item:hover {
+    color: white;
+    border-color: white;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+.hr-between-blocks {
+    border: 0;
+    height: 3px;
+    background-color: white;
+}
+.header-bg{
+    height: 600px;
+    background-image: url(../../assets/images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-head{
+    margin-top: 50px;
+    height: 400px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+.white-site-text{
+    font-family: "Roboto";
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.head-btn{
+    margin-top: 20px;
+    background-color: #3D62B8;
+    border-radius: 40px;
+    width: 15%;
+    height: 60px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.head-btn:hover{
+    background-color: #4A7AEB;
+}
+.head-center{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features{
+    height: 750px;
+}
+.heading-2{
+    color: #070707;
+    font-size: 45px;
+    font-family: "Roboto";
+    padding-top: 100px;
+    text-align: center;
+}
+.site-text{
+    font-family: "Roboto";
+    color: #070707;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
